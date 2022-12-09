@@ -1,0 +1,244 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-contents{
+    display: flex;
+
+}
+
+.navbar{
+    width: 100%;
+}
+.first-section{
+    width: 100%;
+    height: 550px;
+    background:url("https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/shared-assets/images/2022/07/eacom-franchise-hub-f23-hero-med-xl-7x2.png.adapt.crop5x2.1455w.png");
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+}
+
+
+.news h1{
+    font-weight:bold ;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    overflow: hidden;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    margin-top: 10px;
+}
+
+
+.container .row{
+    display: flex;
+   
+    
+}
+.card1 img{
+   
+    width:100%;
+    height: 250px;
+}
+.card1 a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    
+}
+.card1 h4{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    line-height: 28px;
+    font-weight: bold;
+}
+.news-btn button{
+    margin-top: 50px;
+    padding: 10px;
+    width:180px;
+    background: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+.join{
+    width: 100%;
+    background: url("https://media.contentapi.ea.com/content/dam/eacom/subscription/component-assets/common/ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.1456w.jpg");
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join button{
+    height: 40px;
+    width: 150px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.join p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+}
+.about p{
+    text-align: center;
+    margin-top: 20px;
+}
+.latest-news{
+    margin-top: 80px;
+}
+
+.game1{
+    width: 400px;
+    height: 400px;
+    background: url("https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo.jpg.adapt.crop1x1.767p.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.game2{
+    width: 400px;
+    height: 400px;
+    background: url("https://media.contentapi.ea.com/content/dam/gin/images/2021/07/fifa22-key-art.jpg.adapt.crop1x1.767p.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.game3{
+    width: 400px;
+    height: 400px;
+    background: url("https://media.contentapi.ea.com/content/dam/gin/images/2020/06/fifa21-keyart-horizontal-16x9.png.adapt.crop1x1.767p.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.game img{
+    cursor: pointer;
+}
+.game-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-top: 150px;
+}
+.container{
+    padding-top: 50px;
+}
+.cards{
+    padding-top: 50px;
+}
+.footer ul li{
+    list-style: none;
+    color: rgb(179, 179, 179);;
+    display: flex;
+    width: 100%;
+}
+.footer ul{
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+   
+}
+
+.footer{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ .social ul{
+    display: flex;
+   
+ }
+ .links{
+    border-bottom: 1px solid rgba(175, 175, 175, 0.842);
+ }
+ .social ul li{
+    color: white;
+    
+ }
+
+ .fifa-links{
+    border-bottom: 1px solid rgba(175, 175, 175, 0.842);
+ }
+ .feedback{
+    width: 100%;
+ }
+ .feedback-head h1{
+    text-align: center;
+ }
+
+ .messge{
+    margin-left: 80px;
+ }
+
+ .feedback button{
+    
+    width: 120px;
+    margin-bottom: 5px;
+    background: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 30px;
+    margin-left: 40px;
+ }
+ .feedback button:hover{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+ }
+ .mb-3 span{
+    color: red;
+ }
+
+body{
+    overflow-x: hidden;
+}
+section{
+    width: 100vw;
+    overflow-x: hidden;
+}
