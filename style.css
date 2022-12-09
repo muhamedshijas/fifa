@@ -236,9 +236,20 @@
  }
 
 body{
-    overflow-x: hidden;
+    max-width: 100vw;
 }
-section{
-    width: 100vw;
-    overflow-x: hidden;
+.news-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-card{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.card-img, .card-img-top{
+    border-radius: 0px;
+    
 }
